@@ -32,6 +32,6 @@ Open an issue here at github giving details of the request. if the feature is le
 <br />
 
 ## :clap: Supporters
-<br />
+
 [![Stargazers repo roster](https://reporoster.com/stars/abdallah-moh1/palettelor)](https://github.com/abdallah-moh/palettelor/stargazers)
 [![Forkers repo roster](https://reporoster.com/forks/abdallah-moh1/palettelor)](https://github.com/abdallah-moh1/palettelor/network/members)
