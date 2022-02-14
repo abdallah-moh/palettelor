@@ -1,6 +1,9 @@
 <!-- PROJECT LOGO -->
+<h3 align="center">
+  <img src="https://user-images.githubusercontent.com/99133897/153789022-db45cc9a-fc9f-47cd-8730-7d77a5c753bd.png">
+</h3>
 <!-- APP NAME -->
-# Palettelor
+<h1 align="center">Palettelor</h1>
 
 <br />
 
