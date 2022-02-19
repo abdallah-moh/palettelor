@@ -10,9 +10,13 @@
 > If you are trying out the app and you encounter an error or any problem feel free to just open an issue here on GitHub.
 
 ## :hear_no_evil: What is `Palettelor` ?
+
 Palettelor is a cross-platform colors manager.
+
 ### Features
+
 > Note: Most of these features will not be available till the release of version 1
+
 - Create and save palettes
 - A screen color picker
 - Generate a dominant color (You will have to select multiple categories to define it)
@@ -20,7 +24,6 @@ Palettelor is a cross-platform colors manager.
 - Has each color meaning _(this data is used to generate a dominant color)_
 - Generate fades from a color
 - Gradient Editor (gradients can be saved)
-
 
 <br />
 
@@ -31,8 +34,9 @@ Open an issue here at github giving details of the request. if the feature is le
 <br />
 
 ## :package: Install
+
 > Comming Soon
-<br />
+> <br />
 
 ## :clap: Supporters
 
