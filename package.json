@@ -24,7 +24,7 @@
     "build": "webpack --config webpack/webpack.prod.js --color",
     "dev": "webpack --config webpack/webpack.dev.js --color --watch",
     "palettelor": "electron .",
-    "start": "npm run build && concurrently npm:dev npm:palettelor",
+    "start": "npm run build && concurrently -k npm:dev npm:palettelor",
     "test:lint": "eslint .",
     "fix:lint": "eslint . --fix",
     "test:format": "prettier --check  './**/*.{ts,svelte,js,json}'",
@@ -32,9 +32,6 @@
     "package:linux": "electron-builder -l",
     "package:windows": "electron-builder -w",
     "package:mac": "electron-builder -m"
-  },
-  "dependencies": {
-    "electron-store": "^8.0.1"
   },
   "devDependencies": {
     "@popperjs/core": "2.11.x",
@@ -47,6 +44,7 @@
     "css-loader": "^6.5.0",
     "electron": "17.0.0",
     "electron-builder": "22.14.5",
+    "electron-store": "^8.0.1",
     "eslint": "8.8.0",
     "eslint-config-prettier": "^8.4.0",
     "eslint-plugin-import": "^2.25.4",

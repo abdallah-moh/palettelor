@@ -1,0 +1,16 @@
+name: Format Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  format-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check for format errors
+        run: npm run test:format

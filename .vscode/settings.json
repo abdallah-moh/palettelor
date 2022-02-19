@@ -1,0 +1,5 @@
+{
+  "yaml.schemas": {
+    "https://json.schemastore.org/hammerkit.json": "file:///home/abdallah-moh/Public/projects/palettelor/.github/workflows/build.yml"
+  }
+}

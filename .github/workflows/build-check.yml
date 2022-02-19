@@ -1,0 +1,36 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  linux-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+
+      - name: Checking for build errors
+        run: npm run test:format
+
+  mac-build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+
+      - name: Checking for build errors
+        run: npm run test:format
+
+  windows-build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+
+      - name: Checking for build errors
+        run: npm run test:format
