@@ -25,9 +25,7 @@ app.on('ready', () => {
     },
   });
 
-  window.loadURL(
-    `file://${path.join(__dirname, 'dist', 'renderer', 'index.html')}`
-  );
+  window.loadURL(`file://${path.join(__dirname, 'dist', 'renderer', 'index.html')}`);
   // window.setMenu(null);
 
   ModulesManager.init().catch((error: Error) => {
