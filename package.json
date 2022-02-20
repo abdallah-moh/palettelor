@@ -30,9 +30,9 @@
     "fix:lint": "eslint . --fix",
     "test:format": "prettier --check  './**/*.{ts,svelte,js,json}'",
     "fix:format": "prettier --write  './**/*.{ts,svelte,js,json}'",
-    "package:linux": "electron-builder -l",
-    "package:windows": "electron-builder -w",
-    "package:mac": "electron-builder -m",
+    "package:linux": "electron-builder -l --publish never",
+    "package:windows": "electron-builder -w  --publish never",
+    "package:mac": "electron-builder -m  --publish never",
     "generate:icons": "node ./icons/generate.js"
   },
   "devDependencies": {
