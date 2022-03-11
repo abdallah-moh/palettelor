@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <h3 align="center">
-  <img src="https://user-images.githubusercontent.com/99133897/153960155-213903bb-2d1b-4595-86bd-51b7727d8fb9.png">
+  <img src="./icons/icon.svg">
 </h3>
 <!-- APP NAME -->
 <h1 align="center">Palettelor</h1>
@@ -35,7 +35,7 @@ Open an issue here at github giving details of the request. if the feature is le
 
 ## :package: Install
 
-> Comming Soon
+> Coming Soon
 > <br />
 
 ## :clap: Supporters
