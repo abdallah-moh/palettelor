@@ -1,3 +1,9 @@
+<h3 />
+<h3 align="center">
+  <a href="https://www.figma.com/file/Num6OoeQTXLPL2VDqk7xke/Palettelor">Design File</a>
+</h3>
+<h2 />
+
 <!-- PROJECT LOGO -->
 <h3 align="center">
   <img src="./icons/icon.svg">
@@ -42,3 +48,6 @@ Open an issue here at github giving details of the request. if the feature is le
 
 [![Stargazers repo roster](https://reporoster.com/stars/abdallah-moh1/palettelor)](https://github.com/abdallah-moh/palettelor/stargazers)
 [![Forkers repo roster](https://reporoster.com/forks/abdallah-moh1/palettelor)](https://github.com/abdallah-moh1/palettelor/network/members)
+-
+
+
