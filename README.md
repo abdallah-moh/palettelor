@@ -25,9 +25,7 @@ Palettelor is a cross-platform colors manager.
 
 - Create and save palettes
 - A screen color picker
-- Generate a dominant color (You will have to select multiple categories to define it)
 - Generate a palette from a dominant color
-- Has each color meaning _(this data is used to generate a dominant color)_
 - Generate fades from a color
 - Gradient Editor (gradients can be saved)
 
